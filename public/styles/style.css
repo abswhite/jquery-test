@@ -32,7 +32,12 @@ h1 {
   margin-right: auto;
 }
 
-input {
+textarea {
   width: 200px;
   height: 100px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
 }
