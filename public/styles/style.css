@@ -1,9 +1,38 @@
 body {
-  background-color: #A02422;
-  color: #FFF8DC;
-  font-family: 'Oswald';
+
 }
 
 .red {
   color: red;
+}
+
+.font {
+  font-family: 'Syncopate';
+}
+
+.background {
+  background-color: green;
+}
+
+h1 {
+  width: 400px;
+  height: 200px;
+  background-color: #A02422;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF8DC;
+  font-family: 'Oswald';
+}
+
+#button-div {
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 200px;
+  height: 100px;
 }
