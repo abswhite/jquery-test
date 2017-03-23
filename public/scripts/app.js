@@ -18,7 +18,7 @@ $('#font-change').click(function() {
 });
 
 $('#size-change').click(function() {
-  let size = ['50px', '55px', '70px', '90px', '100px', '120px', '130px', '140px', '150px', '160px'];
+  let size = ['20px', '30px', '40px','50px', '55px', '70px', '90px', '100px', '120px', '130px', '140px', '150px', '160px'];
   let random = size[Math.floor(Math.random() * size.length)];
   $('#tumblr-div').css('font-size', random);
   console.log(random);
@@ -42,11 +42,9 @@ $('textarea')
 
 //Change padding
 $('#padding-change').click(function() {
-  let padding = ['50px', '60px', '70px', '80px', '100px', '120px', '140px', '160px', '180px'];
-  let random = padding[Math.floor(Math.random() * padding.length)];
-  $('#tumblr-div').css('padding-right', random);
-  $('#tumblr-div').css('padding-left', random);
-  $('#tumblr-div').css('padding-top', random);
-  $('#tumblr-div').css('padding-bottom', random);
+  let width = ['200px', '300px', '400px', '550px', '600px', '700px', '450px'];
+  let random = width[Math.floor(Math.random() * width.length)];
+  $('#tumblr-div').css('width', random);
+  $('#tumblr-div').css('height', random);
   console.log(random);
 });
