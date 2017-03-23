@@ -4,6 +4,9 @@ html {
 
 body {
   margin-left: 0;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .red {
@@ -20,15 +23,17 @@ body {
 
 #tumblr-div {
   width: 400px;
-  height: 600px;
+  height: 400px;
   background-color: #A02422;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
   color: #FFF8DC;
   font-family: 'Oswald';
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -40,40 +45,14 @@ button {
 }
 
 h1 {
-  text-align: center;
   font-family: 'Quantico';
+  text-align: center;
 }
 
 img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 100%;
+  width: 600px;
   height: auto;
-}
-
-#padding-change {
-  display: none;
-}
-
-@media only screen and (min-width: 640px) {
-  #tumblr-div {
-    width: 550px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: 'Marvel';
-    font-size: 90px;
-    padding: 160px 160px 160px 160px;
-  }
-
-  img {
-    width: 550px;
-    height: auto;
-  }
-
-  #padding-change {
-    display: block;
-  }
 }
