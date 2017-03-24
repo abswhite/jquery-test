@@ -10,16 +10,8 @@ body {
   text-align: center;
 }
 
-.red {
-  color: red;
-}
-
-.font {
-  font-family: 'Syncopate';
-}
-
-.background {
-  background-color: green;
+hr {
+  width: 100%;
 }
 
 #tumblr-div {
@@ -70,5 +62,10 @@ img {
     display: block;
     width: 600px;
     height: auto;
+  }
+
+
+  hr {
+    width: 400px;
   }
 }
